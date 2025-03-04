@@ -47,6 +47,7 @@ class _MyWidgetState extends State<QuizScreen> {
                           children: [
                             Column(
                               children: [
+                                SizedBox(height: 40),
                                 Container(
                                   height: 200,
                                   width: 260,
@@ -59,7 +60,7 @@ class _MyWidgetState extends State<QuizScreen> {
                                 ),
                               ],
                             ),
-                            SizedBox(height: 50),
+
                             Stack(
                               alignment: Alignment.center,
                               children: [
